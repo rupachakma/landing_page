@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav img{
+    width: 100px;
+    margin-left: 50px;
+}
+.bg_img{
+    background: url("../image/banner_Image.png");
+    height: 60vh;
+    background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
