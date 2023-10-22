@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .nav img{
@@ -10,8 +13,44 @@
 .bg_img{
     background: url("../image/banner_Image.png");
     height: 60vh;
+    min-height: 60vh;
     background-position: center center;
     background-size:cover;
     background-repeat: no-repeat;
+    color: white;
+    
 
+}
+
+.hero_content{
+    /* padding: 20em 0; */
+    height: 60vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bg_img h2{
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.bg_img hr{
+    
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    border-color: rgb(47, 154, 186);
+}
+.btn{
+    background-color: transparent;
+    padding: 8px;
+    border-color: rgb(49, 163, 163);
+    border-style: solid;
+    color: white;
+    margin-top: 45px;
+}
+i{
+    margin-top: 70px;
 }
