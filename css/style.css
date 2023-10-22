@@ -17,8 +17,8 @@
 }
 .bg_img{
     background: url("../image/banner_Image.png");
-    height: 60vh;
-    min-height: 60vh;
+    height: 70vh;
+    min-height: 70vh;
     background-position: center center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -161,4 +161,17 @@ i{
     opacity: .8;
     visibility: visible;
     cursor: pointer;
+}
+
+.form_img{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.651) 0%, rgba(0, 0, 0, 0.781) 100%), url(../image/form_bg.png);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form_title{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
 }
