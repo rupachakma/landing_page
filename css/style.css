@@ -6,9 +6,14 @@
 
 }
 
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
 .nav img{
     width: 100px;
-    margin-left: 70px;
+
 }
 .bg_img{
     background: url("../image/banner_Image.png");
@@ -53,4 +58,40 @@
 }
 i{
     margin-top: 70px;
+}
+
+.cicon{
+    padding: 16px 18px;
+    background-color: rgb(77, 203, 253);
+    color: white;
+    font-size: 24px;
+    position: relative;
+}
+
+.iconbox i{
+    z-index: 9999;
+}
+.cicon::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(59, 167, 255);
+    z-index: -1;
+}
+.featured_section{
+    background-color: rgb(238, 237, 235);
+    text-align: center;
+    padding: 5rem 0;
+
+}
+
+.service_section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    margin-bottom: 60px;
 }
